@@ -1,0 +1,41 @@
+ConstraintException,System.Data.ConstraintException: La columna 'numero' está restringida para ser única. Ya está presente el valor '1'.
+   en System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   en System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en SolisLuciaTPLab3.CProvincias.excelProv(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CProvincias.cs:línea 110
+ConstraintException,System.Data.ConstraintException: La columna 'anio, provincia' está restringida para ser única. Ya está presente el valor '1993, Chubut'.
+   en System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   en System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en SolisLuciaTPLab3.CIncendios.excelInc(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CIncendios.cs:línea 156
+ConstraintException,System.Data.ConstraintException: La columna 'numero' está restringida para ser única. Ya está presente el valor '1'.
+   en System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   en System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en SolisLuciaTPLab3.CProvincias.excelProv(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CProvincias.cs:línea 110
+ConstraintException,System.Data.ConstraintException: La columna 'numero' está restringida para ser única. Ya está presente el valor '1'.
+   en System.Data.UniqueConstraint.CheckConstraint(DataRow row, DataRowAction action)
+   en System.Data.DataTable.RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, Boolean fireEvent)
+   en System.Data.DataTable.SetNewRecordWorker(DataRow row, Int32 proposedRecord, DataRowAction action, Boolean isInMerge, Boolean suppressEnsurePropertyChanged, Int32 position, Boolean fireEvent, Exception& deferredException)
+   en System.Data.DataTable.InsertRow(DataRow row, Int64 proposedID, Int32 pos, Boolean fireEvent)
+   en System.Data.DataRowCollection.Add(DataRow row)
+   en SolisLuciaTPLab3.CProvincias.excelProv(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CProvincias.cs:línea 110
+ArgumentOutOfRangeException,System.ArgumentOutOfRangeException: El valor de '101' no es válido para 'Value'. 'Value' debería estar entre 'minimum' y 'maximum'.
+Nombre del parámetro: Value
+   en System.Windows.Forms.ProgressBar.set_Value(Int32 value)
+   en SolisLuciaTPLab3.CIncendios.excelInc(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CIncendios.cs:línea 162
+InvalidOperationException,System.InvalidOperationException: No se debería llamar a PerformStep si el estilo es Marquee.
+   en System.Windows.Forms.ProgressBar.PerformStep()
+   en SolisLuciaTPLab3.CIncendios.excelInc(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CIncendios.cs:línea 162
+InvalidOperationException,System.InvalidOperationException: No se debería llamar a PerformStep si el estilo es Marquee.
+   en System.Windows.Forms.ProgressBar.PerformStep()
+   en SolisLuciaTPLab3.CIncendios.excelInc(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CIncendios.cs:línea 163
+InvalidOperationException,System.InvalidOperationException: No se debería llamar a PerformStep si el estilo es Marquee.
+   en System.Windows.Forms.ProgressBar.PerformStep()
+   en SolisLuciaTPLab3.CIncendios.excelInc(String ruta) en C:\Users\Usuario\Desktop\SolisLuciaTPLab3\SolisLuciaTPLab3\CIncendios.cs:línea 165
